@@ -1,0 +1,47 @@
+p{
+	color:white;
+	font-size:30px;
+    margin-left:150px;	
+}
+.feedback{
+			border-radius:20px;
+			width:50%;
+			height:500px;
+			position:absolute;
+			background:radial-gradient(black,grey);
+			opacity:0.7;
+			margin-left:280px;
+		}
+.feedback:hover{
+		opacity:1.0;
+		}
+
+		input
+		{
+		height:40px;
+		width:80%;
+		margin-left:10%;
+		margin-top:20px;
+		border-radius:20px;
+		font-size:20px;
+		}
+		h1{color:white}
+	a{
+		color:white; margin-left:11%;
+	}
+	
+	textarea{
+		border-radius:20px;
+		font-size:20px;
+		margin-left:10%;
+		height:100px;
+		width:425px;
+	}
+	
+	button{
+		height:35px;
+		font-size:20px;
+		color:rgb(20,25,52);
+		border-radius:40px;
+		margin-left:35%;
+	}

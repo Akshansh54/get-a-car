@@ -1,0 +1,64 @@
+.previous{
+	font-size:40px;
+	margin-left:40%;
+	margin-top:10%;
+	
+}
+
+.new{
+	font-size:40px;
+	margin-left:40%;
+
+}
+
+
+h1{
+	color:blue;
+}
+.income
+		{
+			border-radius:20px;
+			width:20%;
+			height:200px;
+			margin-left:100px;
+			position:absolute;
+			background:radial-gradient(white,grey);
+			opacity:0.7;
+		
+		}
+.income:hover
+		{
+			opacity:1.0;
+		}
+		
+.support
+		{
+			border-radius:20px;
+			width:20%;
+			height:200px;
+			margin-left:400px;
+			position:absolute;
+			background:radial-gradient(white,grey);
+			opacity:0.7;
+		
+		}
+.support:hover
+		{
+			opacity:1.0;
+		}
+
+.flexibility
+		{
+			border-radius:20px;
+			width:20%;
+			height:200px;
+			margin-left:700px;
+			position:absolute;
+			background:radial-gradient(white,grey);
+			opacity:0.7;
+		
+		}
+.flexibility:hover
+		{
+			opacity:1.0;
+		}
