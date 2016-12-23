@@ -13,7 +13,7 @@
         <style>
                 body,html
                 {   
-                    background-image:url(image/background.jpeg);
+                    
                     background-size:cover;
                     background-repeat:no-repeat;
                 }
@@ -41,9 +41,9 @@
 		border-radius:10px;
 		font-size:20px;
 		}
-		h1{color:white}
+		h1{color:green;}
 		a{
-                    color:white; 
+                    color:blue; 
                     margin-left:11%;
                     font-size: 20px;
                 }

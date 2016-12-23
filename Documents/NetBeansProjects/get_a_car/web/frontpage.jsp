@@ -14,8 +14,6 @@
     </head>
     <body>
             <p>Welcome To<br>
-
-
             <img src="image/logo.png"><p/>
         </p>
     </body>

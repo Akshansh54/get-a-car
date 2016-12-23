@@ -2,12 +2,14 @@
 
 <HTML>
     <HEAD>
-        <TITLE>Fetching Data From a Database</TITLE>
+        <TITLE>Booking</TITLE>
         <style>
             .detail
 		{
-			width:60%;
+			width:48%;
+			height:150px;
 			margin-left:25%;
+			position:absolute;
 			border-radius:20px;
 			background:radial-gradient(red,yellow);
 			opacity:0.7;
@@ -21,25 +23,23 @@
     </HEAD>
 
     <BODY>
-        <H1 style = "margin-left:25%;">Select any car for your journey.</H1>
-        
-
-
-        
+        <H1 style = "margin-left:25%;">Book this Car</H1>
+                
         <% 
         try{
-            //String email = request.getParameter("email");  
+            String email = request.getParameter("email");  
             Class.forName("com.mysql.jdbc.Driver");
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/carrent?" + "user=root&password=");    
 
-            PreparedStatement pst = conn.prepareStatement("select * from car");
+            PreparedStatement pst = conn.prepareStatement("select * from car where email = '" + email + "'");
 
             
             ResultSet rs = pst.executeQuery() ; 
 
-            while(rs.next()) {
-            %>
-                    <fieldset class=detail><legend><h1>Take a car</h1></legend>      
+            if(!rs.next()) {
+            } else {
+        %>
+         <fieldset class=detail><legend><h1>Your Previous Cars</h1></legend>      
         <TABLE "BORDER="1">
             <TR>
                <TH>email</TH>
@@ -59,13 +59,10 @@
                <TD style="color:white;"> <%= rs.getString(6) %> </TD>
                <TD style="color:white;"> <%= rs.getString(7) %> </TD>
            </TR>
-           <FORM METHOD="POST" action ="bookthish.jsp">
-                <INPUT TYPE="SUBMIT" value="Book this car" style ="margin-left: 90%">
-            </FORM>
        </TABLE>
          </fieldset>
-                         
-          <% 
+       <BR>
+       <% 
            }
 }
    catch(Exception e){       

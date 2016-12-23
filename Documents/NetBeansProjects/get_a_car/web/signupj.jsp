@@ -11,6 +11,7 @@
         String fname = request.getParameter("fname");   
         String lname = request.getParameter("lname");
         String email = request.getParameter("email");
+        session.setAttribute( "name", email );
         String password = request.getParameter("password");
         String rpassword = request.getParameter("rpassword");
         Class.forName("com.mysql.jdbc.Driver");  // MySQL database connection 

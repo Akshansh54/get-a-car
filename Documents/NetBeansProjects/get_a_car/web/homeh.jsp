@@ -12,7 +12,6 @@
         <style>
             body,html
                 {
-                    background-image:url(image/background.jpeg);
                     background-size:cover;
                     background-repeat:no-repeat;
                 }
@@ -28,7 +27,6 @@
             li a 
                 {
                     display: block;
-                    color: white;
                     text-align: center;
                     padding: 10px 35px;
                     text-decoration: none;
@@ -62,14 +60,15 @@
         </style>
     </head>
 <body>
-    <img src="image/logo.png" href>
+    
 <ul>
-  <li><a  href="frontpage.jsp" target=main>Home</a></li>
+  <li><a  href="signuph.jsp" target=main>Home</a></li>
   <li><a href="catalogueh.jsp" target=main>cars</a></li>
   <li><a href="loginh.jsp" target=main>Login</a></li>
   <li><a href="contacth.jsp" target=main>Contact</a></li>
   <li><a href="about_us.jsp" target=main>About Us</a></li>
   <li><a href="becomehosth.jsp" target=main>Become host</a></li>
+  <li>Hello, <%= session.getAttribute( "name" ) %></li>
 </ul>
 
 

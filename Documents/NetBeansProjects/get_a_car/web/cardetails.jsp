@@ -11,7 +11,7 @@
 			margin-left:25%;
 			position:absolute;
 			border-radius:20px;
-			background:radial-gradient(black,grey);
+			background:radial-gradient(red,yellow);
 			opacity:0.7;
                         color:white;
 		}
@@ -47,7 +47,6 @@
             ResultSet rs = pst.executeQuery() ; 
 
             if(!rs.next()) {
-                out.println(" ");
             } else {
         %>
          <fieldset class=detail><legend><h1>Your Previous Cars</h1></legend>      
