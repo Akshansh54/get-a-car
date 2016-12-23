@@ -13,7 +13,7 @@
         <style>
                 body,html
                 {   
-                    background-image:url(image/background.jpeg);
+                    
                     background-size:cover;
                     
                 }
@@ -40,8 +40,8 @@
 		border-radius:10px;
 		font-size:20px;
 		}
-		h1{color:white}
-		a{color:white; margin-left:11%;}
+		h1{color:green}
+		a{color:blue; margin-left:11%;}
          </style>
     </head>
     <body>

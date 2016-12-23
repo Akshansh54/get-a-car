@@ -45,6 +45,8 @@
          </style>
     </head>
     <body>
+        <h1>Already have an account!</h1>
+        <a href="loginh.jsp">Log In</a>
         <fieldset class=signup><legend><h1>Sign-up</h1></legend>
         <form method="post" action="signupj.jsp">
             <center>

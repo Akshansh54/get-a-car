@@ -59,8 +59,9 @@
                <TD style="color:white;"> <%= rs.getString(6) %> </TD>
                <TD style="color:white;"> <%= rs.getString(7) %> </TD>
            </TR>
-           <FORM METHOD="POST" action ="bookthish.jsp">
+           <FORM METHOD="post" action ="bookthish.jsp">
                 <INPUT TYPE="SUBMIT" value="Book this car" style ="margin-left: 90%">
+          
             </FORM>
        </TABLE>
          </fieldset>

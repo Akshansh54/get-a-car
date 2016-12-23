@@ -62,7 +62,7 @@
 <body>
     
 <ul>
-  <li><a  href="signuph.jsp" target=main>Home</a></li>
+  <li><a  href="frontpage.jsp" target=main>Home</a></li>
   <li><a href="catalogueh.jsp" target=main>cars</a></li>
   <li><a href="loginh.jsp" target=main>Login</a></li>
   <li><a href="contacth.jsp" target=main>Contact</a></li>
@@ -72,7 +72,7 @@
 </ul>
 
 
-<iframe name="main" class= main width=100% height=85% src="frontpage.jsp"></iframe>
+<iframe name="main" class= main width=100% height=85% src="signuph.jsp"></iframe>
 
 </body>
 </html>

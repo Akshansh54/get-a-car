@@ -13,7 +13,7 @@
 			border-radius:20px;
 			background:radial-gradient(red,yellow);
 			opacity:0.7;
-                        color:white;
+                        color:black;
 		}
 		.detail:hover
 		{
@@ -40,7 +40,7 @@
             } else {
         %>
          <fieldset class=detail><legend><h1>Your Previous Cars</h1></legend>      
-        <TABLE "BORDER="1">
+        <TABLE BORDER="1">
             <TR>
                <TH>email</TH>
                <TH>carnumber</TH>
